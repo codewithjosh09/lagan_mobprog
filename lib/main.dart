@@ -21,7 +21,7 @@ class MainApp extends StatelessWidget {
       builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: "Facebook Replication",
+          title: "Facebook Clone",
           initialRoute: "/home",
           routes: {
             "/home": (context) => const HomeScreen(),
